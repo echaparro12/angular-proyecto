@@ -1,0 +1,94 @@
+<div class="container contact-form">
+    <h1 class="text-center">Gestión del Laboratorio.</h1>
+    <hr>
+    <div class="row">
+         <div class="col-md-6">
+
+            <div class="form-group">
+                <label>Encargado</label>
+                <input id="pro_sal_nombre" type="text" class="form-control">
+              </div>
+      
+               
+      
+               <div class="form-group">
+                <label>Nombres del Usuario</label>
+                <input id="lab_us_pasciente" type="text" class="form-control">
+               </div>
+
+               <div class="form-group ">
+                <label>Tipo de Identificación</label>
+               <div>
+                 <select class="form-control" id="tipo" name="idtf">
+                   <option selected>Seleccione un Tipo de Documento</option>
+                   <option value="CC">Cédula de Ciudadanía</option>
+                   <option value="TI">Tarjeta de Identidad</option>
+                   <option value="CE">Cédula de Extranjería</option>
+                   <option value="NIT">NIT</option>
+                   <option value="RC">Registro Civil</option>
+                   <option value="PSP">Pasaporte</option>
+                 </select>
+               </div>
+             </div>
+
+
+               <div class="form-group">
+                <label>Identificación del Usuario</label>
+                <input id="lab_us_id" type="text" class="form-control">
+               </div>
+      
+
+               <div class="form-group">
+                <label>Correo Electronico del Usuario</label>
+                <input id="lab_us_email" type="text" class="form-control">
+               </div>
+
+               <div class="form-group">
+                <label>Telefono del Usuario</label>
+                <input id="lab_us_telefono" type="text" class="form-control">
+               </div>
+         </div>
+
+
+         <div class="col-md-6">
+                <div class="form-group">
+                <label>Identificación del Encargado</label>
+                <input id="pro_sal_id" type="text" class="form-control">
+               </div>
+  
+            <div class="form-group">
+            <label>Tipo de Laboratorio</label>
+            <select class="form-control" id="pro_area">
+              <option selected></option>
+              <option value="sangre">Muestra de sangre</option>
+              <option value="resonancia">Resonancia Magnética</option>
+              <option value="rayos">Rayos X</option>
+            </select>
+          </div>
+    
+          <div class="form-group">
+            <label>Valor a Pagar</label>
+            <input id="lab_pagos" type="text" class="form-control">
+           </div>
+
+           <div class="form-group">
+            <label>Fecha de entrega </label>
+            <input id="lab_entregas" type="date" class="form-control">
+           </div>
+  
+  
+          <div class="form-group">
+            <label>Mensaje</label>
+            <textarea  id="us_mensaje" class="form-control" rows="5"></textarea>
+           </div>
+        
+           <div class="form-group">
+            <button class="btn btn-primary btn-block">Enviar</button>
+           </div>
+  
+         </div>
+  
+      </div>
+  
+  </div>
+  
